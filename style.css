@@ -1,0 +1,182 @@
+.box {
+  background: rosybrown;
+  background: linear-gradient(108.22deg, #FBFF41 40%, #EC00E2 100%);
+  width: 700px;
+  height: 700px;
+  margin: 50px auto;
+  border-radius: 100%;
+  animation: box 10s linear infinite;
+  animation: box-2  1s 59s linear ;
+}
+.r{
+  width: 700px;
+  height: 700px;
+  margin: 50px auto;
+  border-radius: 100%;
+  position: absolute;
+}
+.dog{
+  position: absolute;
+  width: auto;
+  height: auto;
+  margin:  190px 0 0 238px;
+  border-radius: 100%;
+  animation: box-2  1s 59s linear ;
+}
+.eight{
+  margin:  0 0 ;
+}
+.group-one{
+  width: 700px;
+}
+.eleven{
+  margin: 50px 0 0 160px;
+  position: absolute;
+}
+.twelve{
+  margin: 0 0 0 305px;
+  position: absolute;
+}
+.one{
+  margin: 50px 0 0 481px;
+  position: absolute;
+}
+.nine{
+  margin: 325px 0 0 0;
+  position: absolute;
+}
+.three{
+  margin: 325px 0 0 660px;
+  position: absolute;
+}
+.six{
+  margin: 650px 0 0 330px;
+  position: absolute;
+}
+.two{
+  margin: 150px 0 0 600px;
+  position: absolute;
+}
+.ten{
+  margin: 150px 0 0 50px;
+  position: absolute;
+}
+.four{
+  margin: 500px 0 0 600px;
+  position: absolute;
+}
+.five{
+  margin: 600px 0 0 500px;
+  position: absolute;
+}
+.seven{
+  margin: 625px 0 0 200px;
+  position: absolute;
+}
+.eight{
+  margin: 500px 0 0 50px;
+  position: absolute;
+}
+.arrow {
+  position: absolute;
+  background: black;
+  width: 10px;
+  height: 250px;
+  top: 150px;
+  left: calc(50% - 5px);
+  animation: move 43200s linear infinite;
+}
+.dog{
+  position: absolute;
+}
+
+.arrow-2 {
+  position: absolute;
+  background: tomato;
+  width: 6px;
+  height: 300px;
+  top: 100px;
+  left: calc(50% - 3px);
+  animation: arrow 60s linear infinite;
+}
+.arrow-3{
+  position: absolute;
+  background: black;
+  width: 6px;
+  height: 300px;
+  top: 100px;
+  left: calc(50% - 3px);
+  animation: arrow-3 21600s linear infinite;
+}
+
+
+@keyframes move {
+  0% {
+      transform: roate(0);
+      transform-origin: 0 100% 0;
+  }
+
+  50% {
+      transform: rotate(180deg);
+      transform-origin: 0 100% 0;
+  }
+
+  100% {
+      transform: rotate(360deg);
+      transform-origin: 0 100% 0;
+  }
+}
+
+@keyframes arrow {
+  0% {
+      transform: rotate(0);
+      transform-origin: 0 100% 0;
+  }
+
+  50% {
+      transform: rotate(180deg);
+      transform-origin: 0 100% 0;
+  }
+
+  100% {
+      transform: rotate(360deg);
+      transform-origin: 0 100% 0;
+  }
+}
+@keyframes arrow-3 {
+  0% {
+      transform: rotate(0);
+      transform-origin: 0 100% 0;
+  }
+
+  50% {
+      transform: rotate(180deg);
+      transform-origin: 0 100% 0;
+  }
+
+  100% {
+      transform:  rotate(360deg);
+      transform-origin: 0 100% 0;
+  }
+}
+@keyframes box {
+  0% {
+    background: linear-gradient(108.22deg, #FBFF41 40%, #EC00E2 100%);
+  }
+
+  100%{
+    background: linear-gradient(108.22deg, #41b9ff 40%, #fac61a 100%);
+  }
+}
+@keyframes box-2 {
+  0% {
+    transform: rotate(0);
+}
+
+50% {
+    transform: rotate(180deg);
+}
+100% {
+  transform:  rotate(360deg);
+}
+}
